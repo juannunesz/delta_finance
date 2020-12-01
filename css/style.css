@@ -1,11 +1,7 @@
-
-
+/* Estrutural */
 body {
     background:#f1f2f6;
 }
-
-
-
 nav {
     background: black;
 }
@@ -22,21 +18,9 @@ nav {
 .navegacao a:hover {
     color: #ff6c00;
 }
-
-
-
 #home {
     background: #ff6c00;
 }
-
-
-
-.caixa {
-    padding: 60px 0;
-    border-bottom: 1px solid #747d8c;
-}
-
-
 
 footer {
     background: black;
@@ -52,6 +36,17 @@ footer p a:hover {
 }
 
 
+
+
+/* Configuraçoes comum */
+
+.caixa {
+    padding: 60px 0;
+    border-bottom: 1px solid #747d8c;
+}
+.caixa-basica {
+    padding: 100px 0;
+}
 .botao {
     background: black;
     color: white;
@@ -60,31 +55,35 @@ footer p a:hover {
     color:black;
     background: white;
 }
-
-
 .black {
     color: black;
 }
-
 .white {
     color: white;
+}
+.align {
+    text-align: center;
+}
+
+
+
+
+
+/* Pagina planos */
+
+.tempo-pagamento {
+    font-size: 46px;
 }
 
 .recursos {
     text-align: center; 
     font-size: 30px;
 }
-
 .direitos {
     font-size: 18px;
     color: white;
     text-align: center;
 }
-
-.align {
-    text-align: center;
-}
-
 .borda {
     border: 2px solid black;
     border-radius: 10px;
@@ -92,7 +91,6 @@ footer p a:hover {
     height: 500px;
     background: white;
 }
- 
 .botao-assine {
     background: #ff6c00;
     color: black;
@@ -103,7 +101,6 @@ footer p a:hover {
     background: white;
     color: black;
 }
-
 .botao-assine-trs {
     background: white;
     color: #ff6c00;
@@ -115,17 +112,11 @@ footer p a:hover {
     border: none;
     color: black;
 }
-
 .caixa-planos {
-    padding: 60px 0;
+    padding-top: 120px;
     background-image: url(/img/253017866_1-4.jpg);
+    height: 800px;
 }
-
-.caixa-basica {
-    padding: 130px 0;
-}
-
-
 .botao-contact {
     border-color: black;
     color: black;
@@ -133,6 +124,13 @@ footer p a:hover {
 .botao-contact:hover {
     background: white;
     color: black;
+}
+.duvidas {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 35px; 
+    margin-bottom: 50px; 
 }
 
         
