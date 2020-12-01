@@ -1,0 +1,83 @@
+
+
+body {
+    background:#f1f2f6;
+}
+
+
+
+nav {
+    background: black;
+}
+.navegacao li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+.navegacao a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navegacao a:hover {
+    color: #ff6c00;
+}
+
+
+
+#home {
+    background: #ff6c00;
+}
+
+
+
+.caixa {
+    padding: 60px 0;
+    border-bottom: 1px solid #747d8c;
+}
+
+
+
+footer {
+    background: black;
+}
+footer p a {
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+footer p a:hover {
+    color: #ff6c00;
+    text-decoration: none;
+}
+
+
+.botao {
+    background: black;
+    color: white;
+}
+.botao:hover {
+    color:black;
+    background: white;
+}
+
+
+.black {
+    color: black;
+}
+
+.recursos {
+    text-align: center; 
+    font-size: 40px;
+}
+
+.direitos {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+
+ 
+
+        
