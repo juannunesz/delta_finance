@@ -5,7 +5,7 @@
 > Projeto tem como obejtivo principal ser um projeto pessoal 
 no qual demonstro habilidades no front-end / criação de sites, utilizei para a criação deste site: Bootstrap 4, HTML , CSS.
 
-<hr>
+
 
 ### Ajustes e melhorias
 
@@ -15,11 +15,6 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Área de Login
 - [ ] Área de Cadastro
 
-
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
-
-<hr>
 
 ## 📫 Contribuindo para Delta Finance
 
@@ -43,8 +38,3 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
-
-[⬆ Voltar ao topo](#Delta_Finance)<br>
