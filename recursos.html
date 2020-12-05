@@ -21,41 +21,48 @@
 
   <body>
       
-      <header> <!-- Começo Menu superior -->
-          <nav>
-            <div class="container">
-              <div class="row"> 
-
-                <div class="col-sm-6 pt-2 pb-3"> <!-- ini/Logo-->
-                  <a href="index.html">
-                    <img src="img/Delta-logo.png" width="230">
-                  </a>
-                </div> <!-- Fim/Logo-->
-
-                <div class="navegacao col-md-6 d-flex justify-content-end"> <!-- ini/navbar-->
-                  <ul class="pt-4">
-                    <li>
-                      <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                      <a href="recursos.html">Recursos</a>
-                    </li>
-                    <li>
-                      <a href="planos.html">Planos</a>
-                    </li>
-                    <li>
-                      <a href="">Cadastro</a>
-                    </li>
-                    <li>
-                      <a class="btn btn-outline-light ml-3" href="index.html">Entrar</a>
-                    </li>
-                  </ul>
-                </div> <!-- fim/navbar-->
-
-              </div> 
+       <!-- Inicio Barra de Navegação -->
+       <header> 
+        <nav class="navbar navbar-expand-md navbar-light">
+      
+          <div class="container">
+  
+            <a class="navbar-brand logo" href="index.html">
+              <img src="img/Delta-logo.png" width="200">
+            </a>
+  
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#nav-principal">
+              <i class="fas fa-bars text-white"></i>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="nav-principal">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="recursos.html">Recursos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="planos.html">Planos</a>
+                </li>
+  
+                <li class="nav-item divisor"></li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cadastro</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Entrar</a>
+                </li>
+              </ul>
             </div>
-          </nav>
-      </header> <!-- Final menu superior -->
+  
+          </div>
+          
+      </header> 
+      <!-- Fim/ Barra de Navegação -->
 
       
       <section class="caixa-basica black"> <!-- Começo da apresentação plano -->
@@ -81,22 +88,22 @@
           <div class="row">
 
             <div class="col-md-3 texto-preto"> 
-                <img  class="img-fluid ml-5 mt-3" src="img/easy-to-use.png" width="180px">
+                <img  class="img-fluid ml-5 mt-3 d-none d-md-block" src="img/easy-to-use.png" width="180px">
                 <h4 class="display-4 recursos align mt-3">Linguagem Simplificada</h4>
             </div> 
 
             <div class="col-md-3 texto-preto"> 
-              <img src="img/quebra-cabeça.png" class=" ml-3 img-fluid" width="200">
+              <img src="img/quebra-cabeça.png" class=" ml-3 img-fluid d-none d-md-block" width="200">
               <h4 class="display-4 recursos">Fácil de usar</h4>
             </div> 
 
             <div class="col-md-3"> 
-              <img src="img/catão.png" class="img-fluid ml-3" width="200">
+              <img src="img/catão.png" class="img-fluid ml-3 d-none d-md-block" width="200">
               <h4 class="display-4 recursos">Painel limpo, sem poluição de informações</h4>
             </div> 
 
             <div class="col-md-3"> 
-              <img class="img-fluid ml-5 mt-4" src="img/atendente.png" width="150">
+              <img class="img-fluid ml-5 mt-4 d-none d-md-block" src="img/atendente.png" width="150">
               <h4 class="display-4 recursos mt-4">Suporte amigo</h4>
             </div> 
 
@@ -105,22 +112,22 @@
           <div class="row afastamento">
 
             <div class="col-md-3 texto-preto"> 
-                <img src="img/Document.png" class="img-fluid ml-5" width="125">
+                <img src="img/Document.png" class="img-fluid ml-5 d-none d-md-block" width="125">
                 <h4 class="display-4 recursos mt-4">Relatórios simples e só os estritamente necessários e úteis</h4>
               </div> 
 
             <div class="col-md-3 texto-preto"> 
-              <img src="img/lampada.png" class="ml-4 img-fluid" width="200">
+              <img src="img/lampada.png" class="ml-4 img-fluid d-none d-md-block" width="200">
               <h4 class="display-4 recursos mt-3">Dicas de Economia e Perguntas Frequentes</h4>
             </div> 
 
             <div class="col-md-3 black"> 
-              <img src="img/learning-training.png" class="img-fluid ml-3" width="220px">
+              <img src="img/learning-training.png" class="img-fluid ml-3 d-none d-md-block" width="220px">
               <h4 class="display-4 recursos mb-3">Próprio também para iniciantes</h4>
             </div> 
 
             <div class="col-md-3"> 
-              <img class="img-fluid ml-4 mt-3 " src="img/Video-Player.png" width="180" >
+              <img class="img-fluid ml-4 mt-3 d-none d-md-block " src="img/Video-Player.png" width="180" >
               <h4 class="display-4 recursos">Passos a Passo, Vídeos de Treinamento, etc.</h4>
             </div> 
 
@@ -146,14 +153,14 @@
               </p>
               <div class=" d-flex justify-content-around">
                 <div>
-                  <button class="botao-contact btn btn-outline-dark btn-lg btn-block ml-5" style="width: 300px; height: 60px;">
+                  <a class="botao-contact btn btn-outline-dark btn-lg btn-block ml-5 botao-custom" style="width: 300px; height: 60px;">
                     Conheça o Plano completo
-                  </button>
+                  </a>
                 </div>
                 <div>
-                  <button class="botao-contact btn btn-outline-dark btn-lg btn-block mr-5 " style="width: 300px; height: 60px;">
+                  <a class="botao-contact btn btn-outline-dark btn-lg btn-block mr-5 botao-custom " style="width: 300px; height: 60px;">
                     Conheça o Plano completo
-                  </button>
+                  </a>
                 </div>
               </div>
               <div class="mt-5 align mr-5">
@@ -180,7 +187,7 @@
               </P>
             </div> <!-- final navlinks -->
 
-            <div class="col-md-4 d-flex justify-content-end"> <!-- Redes Sociais -->
+            <div class="col-md-4 d-flex justify-content-end redes"> <!-- Redes Sociais -->
               <a href="" class="btn btn-outline">
                 <i class="fab fa-facebook fa-2x" style=" color: white;"></i>
               </a>

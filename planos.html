@@ -21,41 +21,48 @@
 
   <body>
       
-      <header> <!-- Começo Menu superior -->
-          <nav>
-            <div class="container">
-              <div class="row"> 
-
-                <div class="col-md-6 pt-2 pb-3"> <!-- ini/Logo-->
-                  <a href="index.html">
-                    <img src="img/Delta-logo.png" width="230">
+             <!-- Inicio Barra de Navegação -->
+             <header> 
+              <nav class="navbar navbar-expand-md navbar-light">
+            
+                <div class="container">
+        
+                  <a class="navbar-brand logo" href="index.html">
+                    <img src="img/Delta-logo.png" width="200">
                   </a>
-                </div> <!-- Fim/Logo-->
-
-                <div class="navegacao col-md-6 d-flex justify-content-end"> <!-- ini/navbar-->
-                  <ul class="pt-4">
-                    <li>
-                      <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                      <a href="recursos.html">Recursos</a>
-                    </li>
-                    <li>
-                      <a href="planos.html">Planos</a>
-                    </li>
-                    <li>
-                      <a href="">Cadastro</a>
-                    </li>
-                    <li>
-                      <a class="btn btn-outline-light ml-3" href="index.html">Entrar</a>
-                    </li>
-                  </ul>
-                </div> <!-- fim/navbar-->
-
-              </div> 
-            </div>
-          </nav>
-      </header> <!-- Final menu superior -->
+        
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                  data-target="#nav-principal">
+                    <i class="fas fa-bars text-white"></i>
+                  </button>
+          
+                  <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="recursos.html">Recursos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="planos.html">Planos</a>
+                      </li>
+        
+                      <li class="nav-item divisor"></li>
+        
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Cadastro</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Entrar</a>
+                      </li>
+                    </ul>
+                  </div>
+        
+                </div>
+                
+            </header> 
+            <!-- Fim/ Barra de Navegação -->
 
       <section class="caixa-basica black"> <!-- Começo da apresentação plano -->
         <div class="container ">
@@ -173,7 +180,7 @@
               </P>
             </div> <!-- final navlinks -->
 
-            <div class="col-md-4 d-flex justify-content-end"> <!-- Redes Sociais -->
+            <div class="col-md-4 d-flex justify-content-end redes"> <!-- Redes Sociais -->
               <a href="" class="btn btn-outline">
                 <i class="fab fa-facebook fa-2x" style=" color: white;"></i>
               </a>

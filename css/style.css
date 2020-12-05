@@ -2,22 +2,30 @@
 body {
     background:#f1f2f6;
 }
+
+/* Navegação */
+
 nav {
     background: black;
 }
-.navegacao li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 15px;
-}
-.navegacao a {
+
+.navbar-light .navbar-nav .nav-link {
     color: white;
-    text-decoration: none;
-    font-size: 18px;
 }
-.navegacao a:hover {
+
+.navbar-light .navbar-nav .nav-link:hover {
     color: #ff6c00;
 }
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+
+
+
 #home {
     background: #ff6c00;
 }
@@ -35,8 +43,9 @@ footer p a:hover {
     text-decoration: none;
 }
 
-
-
+.caixa-home {
+    padding: 60px 0;
+}
 
 /* Configuraçoes comum */
 
@@ -141,4 +150,45 @@ footer p a:hover {
 } 
 
 
+
+/* -------- Mediaqueries -------- */ 
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) { 
+    .caixa-descricao {
+        margin-left: 20px;
+    }
+    .caixa-descricao button {
+        text-align: center;
+        width: 450px;
+    }
+    .caixa-descricao h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+    .redes {
+        margin-right: 210px;
+    }
+
+
+    .btn-custom {
+        margin: 10px 15px;
+    }
+ }
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+/* Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+/* Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ 
+ }
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) { 
+
+ }
         

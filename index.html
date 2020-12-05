@@ -20,52 +20,66 @@
   </head>
 
   <body>
-      <header> <!-- Começo Menu superior -->
-          <nav>
-            <div class="container">
-              <div class="row"> 
 
-                <div class="col-md-6 pt-2 pb-3"> <!-- ini/Logo-->
-                  <a href="index.html">
-                    <img src="img/Delta-logo.png" width="230">
-                  </a>
-                </div> <!-- Fim/Logo-->
 
-                <div class="navegacao col-md-6 d-flex justify-content-end"> <!-- ini/navbar-->
-                  <ul class="pt-4">
-                    <li>
-                      <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                      <a href="recursos.html">Recursos</a>
-                    </li>
-                    <li>
-                      <a href="planos.html">Planos</a>
-                    </li>
-                    <li>
-                      <a href="">Cadastro</a>
-                    </li>
-                    <li>
-                      <a class="btn btn-outline-light ml-3" href="area-login.html">Entrar</a>
-                    </li>
-                  </ul>
-                </div> <!-- fim/navbar-->
-
-              </div> 
+       <!-- Inicio Barra de Navegação -->
+       <header> 
+        <nav class="navbar navbar-expand-md navbar-light">
+      
+          <div class="container">
+  
+            <a class="navbar-brand logo" href="index.html">
+              <img src="img/Delta-logo.png" width="200">
+            </a>
+  
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#nav-principal">
+              <i class="fas fa-bars text-white"></i>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="nav-principal">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="recursos.html">Recursos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="planos.html">Planos</a>
+                </li>
+  
+                <li class="nav-item divisor"></li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cadastro</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Entrar</a>
+                </li>
+              </ul>
             </div>
-          </nav>
-      </header> <!-- Final menu superior -->
+  
+          </div>
+          
+      </header> 
+      <!-- Fim/ Barra de Navegação -->
+
+
+
+  
+    </header> <!-- Final menu superior -->
 
       <section id="home"> <!-- Começo da Section home -->
-        <div class="container">
+        <div class="container caixa">
           <div class="row">
 
-            <div class="col-md-5 d-flex justify-content-start mt-5 mb-5"> <!-- img principal -->
-              <img  class="img-fluid" src="img/phone-emoji.png">
+            <div class="col-md-5"> <!-- img principal -->
+              <img  class="img-fluid d-none d-md-block" src="img/phone-emoji.png">
             </div>
 
-              <div class="col-md-7 d-flex black justify-content-end"> <!-- ini/descrião home -->
-                <div class="align-self-center">
+              <div class="col-md-7 caixa-descricao"> <!-- ini/descrião home -->
+                <div>
                   <h1 class="display-3">Suas Contas Descomplicadas</h1>
                   <p class="lead">
                     Usado por mais 1 milhão de pessoas, o Delta Finance é uma ferramenta online 
@@ -110,7 +124,7 @@
             </div> <!-- ini/descreição sabia -->
 
             <div class="col-md-6"> <!-- ini/img sabia -->
-              <img src="img/saiba.png" class="img-fluid">
+              <img src="img/saiba.png" class="img-fluid d-none d-md-block">
             </div> <!-- fim/img sabia -->
 
           </div>
@@ -122,7 +136,7 @@
           <div class="row">
 
             <div class="col-md-6"> <!-- ini/img jurus -->
-              <img src="img/juros.png" class="img-fluid">
+              <img src="img/juros.png" class="img-fluid d-none d-md-block">
             </div> <!-- fim/img sabia -->
 
             <div class="col-md-6 d-flex"> <!-- ini/descrição jurus -->
@@ -145,7 +159,7 @@
           <div class="row">
 
             <div class="col-md-4 black "> <!-- ini/descrição facil -->
-              <img src="img/facil.png" class="img-fluid">
+              <img src="img/facil.png" class="img-fluid d-none d-md-block">
               <h4 class="display-4 recursos">Fácil de usar</h4>
               <p class="lead align">
                 O Delta Finance vai além do básico e permite que você 
@@ -155,7 +169,7 @@
             </div> <!-- fim/descrição facil -->
 
             <div class="col-md-4 black"> <!-- ini/descrição economize -->
-              <img src="img/economize.png" class="img-fluid">
+              <img src="img/economize.png" class="img-fluid d-none d-md-block">
               <h4 class="display-4 recursos">Economize seu tempo</h4>
               <p class="lead align">
                 Tempo é dinheiro! Em segundos, você tem tudo sob controle e 
@@ -164,7 +178,7 @@
             </div> <!-- fim/descrição economize -->
 
             <div class="col-md-4 black"> <!-- ini/descrição suporte -->
-              <img class="img-fluid" src="img/suporte.png">
+              <img class="img-fluid d-none d-md-block" src="img/suporte.png">
               <h4 class="display-4 recursos">Suporte amigo</h4>
               <p class="lead align">
                 Dúvidas? Perguntas? Nosso suporte super legal ajuda você!
@@ -190,7 +204,7 @@
               </P>
             </div> <!-- final navlinks -->
 
-            <div class="col-md-4 d-flex justify-content-end"> <!-- Redes Sociais -->
+            <div class="col-md-4 d-flex justify-content-end redes"> <!-- Redes Sociais -->
               <a href="" class="btn btn-outline">
                 <i class="fab fa-facebook fa-2x" style=" color: white;"></i>
               </a>
